@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite it using the metadata below.
+title: "Drone Image Cleaning Pipeline for UAV-Based Wheat Phenotyping"
+version: 1.0.0
+date-released: "2026-01-01"
+authors:
+  - family-names: "Kinz"
+    given-names: "Gudrun"
+    affiliation: "University of Natural Resources and Life Sciences Vienna (BOKU)"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+repository-code: "https://github.com/YOUR_USERNAME/drone-image-cleaning-pipeline"
+license: MIT
+abstract: >-
+  A metadata-based pipeline for quality-filtering UAV images acquired during
+  wheat phenotyping campaigns. The pipeline processes Phase One IIQ image
+  metadata through six sequential stages (flight segmentation, yaw filtering,
+  altitude filtering, slope/trajectory filtering, and Grubbs outlier detection)
+  to remove images of inferior quality without any pixel-level processing.
+keywords:
+  - UAV
+  - wheat phenotyping
+  - image data cleaning
+  - remote sensing
+  - metadata filtering
+  - Grubbs test
+  - Phase One IIQ
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Kinz"
+      given-names: "Gudrun"
+    - family-names: "Bürstmayr"
+      given-names: "Hermann"
+    - family-names: "Roth"
+      given-names: "Peter M."
+  title: >-
+    Automated Image Data Cleaning for UAV-Based Wheat Phenotyping
+    Using Metadata Filtering
+  journal: "Remote Sensing"
+  publisher: "MDPI"
+  year: 2026
+  doi: "10.XXXX/rsXXXXXXXX"

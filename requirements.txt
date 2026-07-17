@@ -1,0 +1,14 @@
+# Core scientific stack
+numpy>=1.24
+pandas>=2.0
+scipy>=1.11
+
+# Visualisation (optional — only needed for generate_wheat_figures.py)
+matplotlib>=3.7
+seaborn>=0.12
+
+# Image handling (optional — only needed for Stage 1 metadata extraction)
+Pillow>=10.0
+
+# Testing
+pytest>=7.4
